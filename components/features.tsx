@@ -36,16 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+                Адаптированные рабочие процессы
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+              Token Scam Checker — это локальный инструмент для анализа смарт-контрактов.
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+              Он проводит более 50 проверок, чтобы определить вероятность мошенничества перед покупкой токена. Работает локально — никакой передачи данных на внешние серверы. Без API-ключей, без авторизаций, без риска утечки личных данных.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -73,11 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Project Milestones
+                Возможность выхода из позиции (Honeypot-проверка)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Проверяется, возможно ли продать токен после его покупки. Некоторые контракты намеренно блокируют возможность продажи, создавая так называемые honeypot-сценарии, в которых пользователь может только покупать, но не может вывести средства.
               </p>
             </article>
             <article>
@@ -91,11 +88,10 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
+                Административный контроль (Developer Access)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Определяется, обладает ли разработчик (или команда) полномочиями вносить изменения в контракт: повышать комиссии, блокировать транзакции, изменять адреса и пр. Высокий уровень доступа может быть признаком централизации и потенциального риска вмешательства.
               </p>
             </article>
             <article>
@@ -112,11 +108,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
+                Блокировка ликвидности (Liquidity Lock)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Проверяется, залочена ли ликвидность на децентрализированной бирже и на какой срок. Отсутствие блокировки означает, что создатель токена может в любой момент изъять ликвидность и обесценить актив.
               </p>
             </article>
             <article>
@@ -138,11 +133,10 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+                Наличие скрытых списков (Blacklist / Whitelist)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Анализируются механизмы ограничения доступа к функциям контракта. Контракт может включать списки адресов, которые могут быть ограничены в торговле или полностью заблокированы, что даёт разработчику рычаги ручного контроля.
               </p>
             </article>
             <article>
@@ -159,11 +153,10 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Flexible Workflows
+                Нетипичное поведение (Нестандартная логика)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Проверяются отклонения от общепринятых стандартов (например, ERC-20): нестандартная реализация функций передачи токенов (transfer, transferFrom), использование прокси-контрактов, внешнего owner-контроля и других непрозрачных механизмов, способных повлиять на безопасность токена
               </p>
             </article>
             <article>
@@ -180,11 +173,10 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Unified Timeline
+                История развертывания и активности (Contract History)
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Проводится анализ даты создания контракта, активности разработчика, а также предыдущих токенов, выпущенных тем же адресом. Повторяющиеся шаблоны скам-поведения, быстрые релаунчи или массовый вывод ликвидности в прошлом могут указывать на высокие риски.
               </p>
             </article>
           </div>
